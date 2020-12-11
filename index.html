@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Oriflame joinig form by team mona</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Oriflame</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#notice" class="nav__link">Notice</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Joinig Form</a></li>
+                        <li class="nav__item"><a href="mailto:thebhikandeshmukh@gmail.com" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <!--===== notice =====-->
+            <section class="notice section " id="notice">
+                <h2 class="section-title">Notice</h2>
+
+                <div class="notice__container bd-grid">
+                    <div>
+                        <p class="notice__text">Please Submit correct information about you self with working & whatsapp number, team will contact you soon, thanks for the joinig as. 
+                        </p>
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+             <!--Update the URL for thank you page on form submit -->
+                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
+                onload="if(submitted) {window.location='https://in.oriflame.com/';}"></iframe> 
+
+                <!-- Update the Google forms URL in action-->
+               <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfc6ORYckESR3TZgPQB3G7cRutIxbFmxF5-sk3n_j3Yalxosg/formResponse" method="post" target="hidden_iframe" onsubmit="return validateForm(); ">
+               
+            <section class="contact section" id="contact">               
+                <h2 class="section-title">Joinig Form</h2>
+                <div class="contact__container bd-grid"
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" id="Name" required name="entry.1997193587" class="contact__input">
+                        <input type="number" placeholder="Mobile no." id="Mobile no" required name="entry.2054245752" class="contact__input">
+                        <input type="mail" placeholder="Email" id="Email" required name="entry.151844675" class="contact__input">
+                        <input type="text" placeholder="Date Of Birth" id="Date Of Birth" required name="entry.320120571" class="contact__input">
+                        <input type="text" placeholder="Address With Pincode" id="Address With Pincode" required name="entry.234008872" class="contact__input">
+                        <input type="text" placeholder="Locality" id="Locality" required name="entry.840745854" class="contact__input">
+                        <button class="contact__button button" type="submit">Submit</button>
+                    </form>
+
+                </div>
+            </section>
+
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title"></p>
+            <p>&#169; 2020 copyright all right reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
